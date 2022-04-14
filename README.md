@@ -1,5 +1,59 @@
 # HtmlStructures
 
+### Nav
+Элемент nav используется для навигации по сайту. 
+     Это ненумерованный список с набором ссылок.
+```
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #282828;
+        height: 3.5em;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        margin: 0 auto;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 400;
+        padding: 0 1.25em;
+        line-height: 3.5em;
+    }
+</style>
+<!-- Nav -->
+<nav>
+    <ul>
+        <li>
+            <a href="#">Обо мне</a>
+        </li>
+        <li>
+            <a href="#">Мои работы</a>
+        </li>
+        <li>
+            <a href="#">Портфолио</a>
+        </li>
+        <li>
+            <a href="#">Контакты</a>
+        </li>
+    </ul>
+</nav>
+```
+
 ### Section
 Общий раздел, который имеет заголовок, колонтитулы.
 Используется для оптимизации поисковой системы.
